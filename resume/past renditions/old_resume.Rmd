@@ -1,0 +1,244 @@
+---
+title: "Jonathan A. Pedroza's Resume"
+author: Jonathan Pedroza, PhD
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: true
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+---
+
+```{css, echo=FALSE}
+
+:root{
+  --page-width: 8.5in;
+  --margin-right: 0.5in;
+  --margin-left: 0.25in;
+  --content-width: calc(var(--page-width) - var(--margin-right) - var(--margin-left));
+  --root-font-size: 12pt;
+  --sidebar-width: 15rem;
+  --sidebar-background-color: #f2f2f2;
+  --main-width: calc(var(--content-width) - var(--sidebar-width));
+  --decorator-horizontal-margin: 0.2in;
+
+  --sidebar-horizontal-padding: 0.2in;
+
+  /* XXX: using px for very good precision control */
+  --decorator-outer-offset-top: 10px;
+  --decorator-outer-offset-left: -5.5px;
+  --decorator-border-width: 1px;
+  --decorator-outer-dim: 9px;
+  --decorator-border: 1px solid #ccc;
+
+  --row-blocks-padding-top: 0.5rem;
+  --date-block-width: 0.7in;
+
+  --main-blocks-title-icon-offset-left: calc(-17pt - 0.25 * var(--root-font-size));
+
+  --viewer-background-color: #dcdcdc;
+  --viewer-pages-spacing: 12px;
+  --viewer-shadow-color: #313131;
+}
+
+.pagedjs_page {
+    background: linear-gradient(to left,var(--sidebar-background-color),var(--sidebar-background-color) var(--sidebar-background-width),white var(--sidebar-background-width));
+    --pagedjs-margin-top: 0.5in;
+    --pagedjs-margin-right: 0.5in;
+    --pagedjs-margin-left: 0.25in;
+    --pagedjs-margin-bottom: 0.5in;
+    --pagedjs-border-top: [object Object];
+    --pagedjs-border-right: [object Object];
+    --pagedjs-border-left: [object Object];
+    --pagedjs-border-bottom: [object Object];
+    --pagedjs-pagebox-width: 8.5in;
+    --pagedjs-pagebox-height: 11in;
+    
+  --content-area-height: calc(var(--pagedjs-height) - var(--pagedjs-margin-top) - var(--pagedjs-margin-bottom));
+  --sidebar-background-width: calc(var(--pagedjs-margin-right) + var(--sidebar-width));
+}
+
+.date{
+  flex: 0 0 var(--date-block-width);
+  padding-top: calc(var(--row-blocks-padding-top) + 0.25rem) !important;
+  padding-right: var(--decorator-horizontal-margin);
+  font-size: 0.6rem;
+  text-align: right;
+  line-height: 1;
+  max-width: var(--date-block-width);
+}
+
+.aside {
+    width: var(--sidebar-width);
+    padding: 0.1in var(--sidebar-horizontal-padding);
+    font-size: 0.8rem;
+    float: right;
+    position: absolute;
+    right: 0;
+}
+
+#title{
+  position: relative;
+  left: 0in;
+  margin: auto 0in 0in auto;
+  line-height: 1.2;
+}
+
+.aside .level2{
+  margin-top: 0.1in;
+}
+
+```
+
+Aside
+================================================================================
+
+Jonathan A. Pedroza PhD {#title}
+--------------------------------------------------------------------------------
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> cpppedroza@gmail.com
+- <i class="fa fa-github"></i> [github.com/jpedroza1228](https://github.com/yulijia)
+- <i class="fa fa-phone"></i> (562)547-5729
+- <i class="fa fa-line-chart" aria-hidden="true"></i> [website](https://jonathan-a-pedroza.netlify.app/)
+- <i class="fa fa-linkedin-square" aria-hidden="true"></i> [linkedin](https://www.linkedin.com/in/jonathan-a-pedroza-phd-5721a7120/)
+- For more information, please contact me via email.
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- Experienced in inferential and predictive analyses, including but not limited to: 
+  - linear and logistic regression
+  - structural equation modeling
+  - mixed-effects modeling
+  - spatial analyses
+  - forecasting
+  - principal component analysis
+  - exploratory and confirmatory factor analysis
+
+- Extensive experience in conducting research including literature reviews, research design, and survey design
+
+- Experienced in program evaluation and implementation science
+
+- Highly skilled in R with experience in Python and SQL
+
+- Experienced in creating and disseminating data visualizations through reports and dashboards  
+
+References
+--------------------------------------------------------------------------------
+
+Available upon request
+
+Main
+================================================================================
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### University of Oregon
+
+PhD in Prevention Science (*Specialization: Data Science for Educators*)
+
+Eugene, Oregon
+
+2017-2021
+
+### University of Oregon
+
+MS in Prevention Science
+
+Eugene, Oregon
+
+2017-2020
+
+### California State University, Dominguez Hills
+
+MA in Health Psychology
+
+Carson, CA
+
+2015-2017
+
+### California State Polytechnic University, Pomona
+
+BA in Psychology (*Minor: Chicana/o & Latina/o Studies*)
+
+Pomona, CA
+
+2010-2014
+
+Professional Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Lecturer, Psychology
+
+California State Polytechnic University, Pomona 
+
+Pomona, CA
+
+2021-Present
+
+::: concise
+- Lectured on experimental design and inferential statistics
+- Taught students how to conduct statistics in SPSS and R
+- Supervised students on creating experiments
+:::
+
+### RStudio Academy Mentor
+
+RStudio 
+
+Remote
+
+2022-Present
+
+::: concise
+- Co-led mentor meetings with industry professionals
+- Taught students to troubleshoot R code
+:::
+
+### Diversity & Inclusion Graduate Employee
+
+University of Oregon Graduate School
+
+Eugene, Oregon
+
+2020-2021
+
+::: concise
+- Created advisory groups to improve inclusivity
+- Organized data for incoming McNair and Promising Scholars
+- Created R dashboards on graduate student teaching and program perceptions
+:::
+
+### COVID-19 Contact Tracing Team Lead Coordinator
+
+Student Corps to Combat Coronavirus
+
+Eugene, Oregon
+
+2020
+
+::: concise
+- Supervised and trained several undergraduate and graduate student contact tracers
+- Connected COVID contacts to resources for their quarantine needs
+-	Collaborated with local public health department to track cases and contacts
+:::
+
+### Research Assistant
+
+Assessing Food Access Programs in Rural Communities
+
+Eugene, Oregon
+
+2017-2019
+
+::: concise
+-	Built strategic connections with key stakeholders in rural Oregon communities
+-	Conducted a needs assessment for food insecurity in communities
+-	Conducted analyses and visualizations at academic conferences
+-	Trained several undergraduates on collecting and analyzing data
+:::

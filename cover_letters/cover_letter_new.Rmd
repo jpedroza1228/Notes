@@ -1,0 +1,42 @@
+---
+output: stevetemplates::cover_letter
+geometry: margin = 1in
+header-includes:
+  - \linespread{1.05}
+
+author: Jonathan A. Pedroza, PhD
+address: |
+    | 14032 Gridley Rd
+    | Norwalk, CA, 90650
+email: "cpppedroza@gmail.com"
+url: jonathan-a-pedroza.netlify.app
+phone: (562) 547-5729
+fontsize: 10pt
+mainfont: cochineal
+monofont: Fira Code
+
+fontawesome: TRUE
+date: "`r format(Sys.time(), '%d %B %Y')`"
+greetings: "Dear **PERSON**,"
+
+---
+
+```{r setup, include=F}
+place <- "CVS Health"
+jobtitle <- "Corporate Social Responsbility Senior Analyst"
+```
+
+I am pleased to apply for your advertised opening of `r jobtitle` at `r place`. This position is of great interest to me as my past training and experience align with `r place`'s mission of addressing social determinants of health in communities of need. My training in Prevention Science and Implementation Science and my skills in qualitative and quantitative analytic approaches provide **the answer for what your company is looking for.**
+
+
+
+I believe I can be a great addition to `r place` with my skills and expertise in public health concepts, qualitative research, evaluation techniques, inferential and predictive analyses, and my ability to report and disseminate findings to stakeholders.
+
+Best regards,
+
+```{r eval=F, echo=FALSE, out.width='30%'}
+# knitr::include_graphics('john-hancock.png')
+# ^ put your signature here as a PNG or something.
+```
+
+Jonathan A. Pedroza (JP), PhD

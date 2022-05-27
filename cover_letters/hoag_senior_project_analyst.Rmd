@@ -1,0 +1,39 @@
+---
+output: stevetemplates::cover_letter
+geometry: margin = 1in
+header-includes:
+  - \linespread{1.05}
+
+author: Jonathan A. Pedroza, PhD
+address: |
+    | 14032 Gridley Rd
+    | Norwalk, CA, 90650
+email: "cpppedroza@gmail.com"
+url: jonathan-a-pedroza.netlify.app
+phone: (562) 547-5729
+fontsize: 10pt
+mainfont: cochineal
+monofont: Fira Code
+
+fontawesome: TRUE
+date: "`r format(Sys.time(), '%d %B %Y')`"
+greetings: "To whom it may concern,"
+
+---
+
+```{r setup, include=F}
+place <- "Hoag Memorial Hospital"
+jobtitle <- "Senior Project Analyst"
+```
+
+I am pleased to submit my application for the opening of `r jobtitle` at `r place`. This position is of great interest to me as my past training and experience align with `r place`'s mission of addressing chronic health conditions for communities in need. My skills in quantitative analytic approaches and data manipulation and visualization, can provide assistance toward reaching those goals.
+
+Aligned with the responsibilities of the position, I have expertise in conducting inferential and predictive analytic techniques using statistical software programs like R, Python, and SPSS. I have extensive experience in conducting t-tests, ANOVA, correlation, and various types of regression models, as well as dimension reduction techniques (e.g., exploratory and confirmatory factor analysis, principal component analysis) and missing data imputation techniques (e.g., multiple imputation). I have used these techniques while collaborating with teams using databases to collect data and large databases using national data, such as Census data and National Health and Nutrition Examination Survey data. My expertise in these techniques also translate to my teaching and mentoring experiences. Over the past year, I have been teaching inferential statistics to undergraduate students at Cal Poly Pomona. There, I have advanced the program curriculum by incorporating the use of R in addition to using SPSS.  
+
+Although I do not have a strong understanding of SAS, I have advanced competency using R for the past 4 years to create dashboards, reproducible reports, and graphic displays of analytic findings. In collaboration with the Vice Provost of University of Oregon's Graduate School, I created a dashboard to examine if increasing graduate teaching employees as instructors increased undergraduate student success. The dashboard included summarized analyses and visualizations exemplifying the relationship. As a current data science mentor at RStudio, I aid students in learning data science techniques and troubleshooting their code using R. In this role, one of my responsibilities is to meet with students after they have finished various weekly lesson plans (e.g., data wrangling and visualization, modeling techniques, creating reproducible reports), where they show an extension of the lesson plan. My role is to then help promote better coding practices as well assist with troubleshooting programmatic errors in coding. To maintain files, reports, and projects I have collaborated on, I have utilized GitHub, a platform for version control and collaboration through storing and sharing code with others. 
+
+While my training has been predominately in behavioral research, I enjoy learning more about statistical methods used in other fields. For instance, I have been reading literature on the use of survival analysis; a statistical method not used often my projects. I am consistently reading updates on new methods and attending webinars to learn new methods and applications for specific designs. Additionally, I have sought out resources to teach myself SQL for database management by downloading MySQL; however, I am enthusiastic about utilizing concepts I have learned with real SQL databases and learning more complex queries. I believe I can be a great addition to `r place` with my skills and expertise in statistical methods, data manipulation and visualization, and research. This opportunity will augment my current experience, knowledge, and skills through learning how to use these statistical methods with medical data and to obtain real-world experience using SQL. Thank you for your consideration.
+
+Best regards,
+
+Jonathan A. Pedroza (JP), PhD
