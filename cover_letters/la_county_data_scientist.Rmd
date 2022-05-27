@@ -38,6 +38,27 @@ In addition to my experiences using R and Python for modeling purposes, I have a
 
 I believe I can be a great asset to `r place` with my skills and expertise in inferential statistics and machine learning, while learning more about utilizing these techniques within a business environment. This opportunity will augment my current experience, knowledge, and skills through learning how to use these skills to promote growth of `r place`. Thank you for your consideration.
 
+skills
+
+data visualization
+
+relevant sources of data for use cases
+
+statistics
+
+machine learning
+
+experimental design
+
+surveys
+
+policy makers
+
+dashboards
+
+
+
+
 Best regards,
 
 Jonathan A. Pedroza (JP), PhD
