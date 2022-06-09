@@ -110,7 +110,7 @@ Contact Info {#contact}
 Skills {#skills}
 --------------------------------------------------------------------------------
 
-- Programming languages: R, Python, and MySQL
+- Programming languages: R, Python, and SQL
 
 - Inferential statistics (e.g., growth models, structural equation modeling)
 
@@ -178,20 +178,6 @@ Pomona, CA
 Professional Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
-### Lecturer, Psychology
-
-California State Polytechnic University, Pomona 
-
-Pomona, CA
-
-2021-Present
-
-::: concise
-- Lectured on experimental design and inferential statistics
-- Taught students how to conduct statistics in SPSS and R
-- Trained students in recruitment, survey design, experimental design, conducting analyses, and report writing
-:::
-
 ### RStudio Academy Mentor
 
 RStudio 
@@ -203,6 +189,20 @@ Remote
 ::: concise
 - Co-led mentor meetings with students learning how to use R
 - Held office hours to assist students with troubleshooting R code
+:::
+
+### Lecturer, Psychology
+
+California State Polytechnic University, Pomona 
+
+Pomona, CA
+
+2021-2022
+
+::: concise
+- Lectured on experimental design and inferential statistics
+- Taught students how to conduct statistics in SPSS and R
+- Trained students in recruitment, survey design, experimental design, conducting analyses, and report writing
 :::
 
 ### Diversity & Inclusion Graduate Employee

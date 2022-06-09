@@ -1,0 +1,43 @@
+---
+output: stevetemplates::cover_letter
+geometry: margin = .7in
+header-includes:
+  - \linespread{1.05}
+
+author: Jonathan A. Pedroza, PhD
+address: |
+    | 14032 Gridley Rd
+    | Norwalk, CA, 90650
+email: "cpppedroza@gmail.com"
+url: jonathan-a-pedroza.netlify.app
+phone: (562) 547-5729
+fontsize: 10pt
+mainfont: cochineal
+monofont: Fira Code
+
+fontawesome: TRUE
+date: "`r format(Sys.time(), '%d %B %Y')`"
+greetings: "Dear S.A.F.E,"
+
+---
+
+```{r setup, include = FALSE}
+jobtitle <- "Research Analyst II"
+place <- "S.A.F.E"
+mission <- "to use statistical analyses and reporting to inform policy change and safety"
+skills <- "statistical analyses, report writing, and dashboard creation"
+```
+
+I am pleased to submit my application for the opening of `r jobtitle` at `r place`. This position is of great interest due to `r place`'s mission `r mission`. I believe my skills in `r skills`, along with my willingness to learn can be beneficial to `r place`'s mission goals.  
+
+Aligned with the responsibilities of the position, I have expertise in conducting inferential statistics and machine learning methods using R. I have several years of experience conducting inferential statistics, including regression analyses, such as structural equation modeling and mixed-effect modeling. I have used inferential statistics to answer research questions about psychometrics of measures, adolescent and adult health behaviors, food access in rural Oregon, and other topics through [published peer-reviewed journals](https://scholar.google.com/citations?user=_LpAFsIAAAAJ&hl=en&oi=ao) and poster, paper, and [virtual](https://jonathan-a-pedroza.netlify.app/post/twitter-conference-presentation/) presentations at regional and national conferences. Through these mediums, I have used inferential statistics to discuss the relevance and potential implications of findings to audiences of academics and practitioners. While my background is academic in nature and I have been trained predominately in inferential statistics, I have sought out courses and a specialization in data science to learn more about machine learning. Through these data science courses, I have learned data wrangling, data visualization, dashboard and report creation, and [machine learning algorithms](https://jonathan-a-pedroza.netlify.app/post/training-testing-prophet-model/) in R; however during my personal time I have been teaching myself these topics in Python. I have used competitions, like Kaggle, to practice these skills in both languages and am constantly researching more about machine learning through books and online resources.  
+
+My expertise in these techniques also translate to my teaching and mentoring experiences. Over the past year, I have been teaching inferential statistics to undergraduate students. There, I have advanced the program curriculum by incorporating R rather than solely SPSS. In addition to teaching inferential statistics, I taught experimental design to students. In this course, I taught students how to create an ethical research study by creating a true experiment through recruitment of other students. Topics included whether their research question would be best answered using a between- or within-subjects design, how to conduct their own analyses, and how to construct a written report of their findings. 
+
+In addition to my experiences using R and Python for modeling purposes, I have advanced competency using R for the past 4 years to create visualizations of analytic findings using dashboards and reproducible reports. In collaboration with the Vice Provost of University of Oregon's Graduate School, I created a [dashboard](https://jpedroza1228.github.io/gradschool_dashboard/) to created growth models examining if increasing graduate teaching employees as instructors increased undergraduate student success. The dashboard included summarized analyses and visualizations exemplifying the relationship. Additionally, I have sought out resources to teach myself SQL and have been practicing developing queries using Google Cloud Platform's BigQuery platform..
+
+I believe I can be a great asset to `r place` with my skills and expertise in inferential statistics, while learning more about utilizing these techniques within a business environment. This opportunity will augment my current experience, knowledge, and skills through dissemination of findings to promote policy change. Thank you for your consideration.
+
+Best regards,
+
+Jonathan A. Pedroza (JP), PhD
