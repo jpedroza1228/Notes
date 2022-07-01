@@ -1,0 +1,84 @@
+---
+output: stevetemplates::cover_letter
+geometry: margin = 1cm
+header-includes:
+  - \linespread{1.05}
+
+author: Jonathan A. Pedroza, PhD
+address: |
+    | 14032 Gridley Rd
+    | Norwalk, CA, 90650
+email: "cpppedroza@gmail.com"
+url: "jonathan-a-pedroza.netlify.app"
+phone: (562) 547-5729
+fontsize: 10pt
+mainfont: cochineal
+monofont: Fira Code
+colorlinks: TRUE
+citecolor: blue
+urlcolor: blue
+linkcolor: blue
+
+fontawesome: FALSE
+date: "`r format(Sys.time(), '%d %B %Y')`"
+greetings: "Dear WestEd,"
+
+---
+
+```{r setup, include = FALSE}
+jobtitle <- "Data Analyst"
+place <- "Bushel"
+mission <- "to create a digitial infrastructure to transmit information across the whole supply chain."
+skills <- "statistics and machine learning, report writing, and programming"
+new <- "my desire to address "
+```
+
+I am pleased to submit my application for the opening of *`r jobtitle`* at `r place`. This position is of great interest to me due to `r place`'s mission `r mission`. I believe my skills and training as a Prevention Scientist in `r skills`, along with `r new`, can be beneficial to `r place`'s mission goals. 
+
+interpret data
+- several years of working with data analyses in both inferential analyses and machine learning algorithms
+- have publications psychometrics of behavioral measures and in adolescent risk-taking behaviors
+- I practice working with several new techniques and new data, with data ranging from public health data, business, stock prices, and miscelleanous data sets from sources, such as the weekly distributed data of Tidy Tuesday (include site/link)
+
+report writing 
+- I have several years of writing research reports in both informal and formal settings (I have shared information on analyses and what they mean for non-statistical infdividuals)
+- I have publications in which I have written whole sections of what was completed in the current study (methods) and the results of the study (results). I have also collaborated with co-authors to discuss the meaning of the findings as the potential implications for what was found in the current study.
+
+develop and implement data anlyses
+- In regard to my experiencce with machine learning algorithms, I have been practicing to create effective models that can work with different data. I have trained a forecasting model to test on other stock prices and have found to model to be sufficient in predicting other stock prices upu to a year in advance. 
+
+interpret trends in complex data sets
+- In my practices, I have begun to practice new analytic techniques. For instance, I have been learning how to conduct forecasting models. 
+- While I am trainined in traditional longitudinal analyses, such as multi-level growth models and latent growth models, I often practice modeling techniques that are uncommon in the field of social science/behavioral sciences
+
+participate in data dictionaries
+- As an academic, and specificallly a graduate student, I have been in charge of developing and maintaining data dictionaries for several studies I have been a part of. One example is that I organized printed documents that were crucial for qualitative data analyses. Things like interview/focus group guides, demographic data that was collected, and consent forms. I also created electronic dictionaries of survey questions that were for quantitative data analyses, where I included data cleaning notes, descriptive statistics, and visualizations (e.g., histograms)
+
+report data back to businesses
+- I believve one of my best skills is being able to interpret and disseminate data to stakeholders. I have several experiences of presenting data at regional and national academic conferences to groups of researchers, academics, and practitioners. Unlike most applicants, I had to present original research findings to others with questions about these studies. Additionally, ff the past year I have served as a lecturer in Psychology where I have worked with students on statistics and experimental designswhere they had to learn to disseminate the findings of their analyses/experiments. Students laerned how to report findings to different audeinces, including other students. 
+
+model building
+R & SPSS knowledge
+Query knowledge
+
+As an academic, I was never taught SQL or any other database management language. To (fill in the space), I decided to learn SQL on my own. I have been practicing creating queries by using Google's BigQuery to work with publicaly available data. 
+
+Write comprehensive reports
+
+- To create reports, I often use Rmarkdown and Quarto to create reports that include R and Python code alongside written reports and 
+problem-solving skills
+
+
+As an academic, I am experienced in conducting quantitative and qualitative research. I have worked on and led several research projects focused on inequities in specific populations. I am particularly passionate about the impact that social determinants of health, such as access to parks, pollution, and violent crime, have on health behaviors and chronic health conditions. Informed by the Social Ecological Model, I gave a presentation on twitter about this topic (https://twitter.com/PaSectionAPHA/status/1309192269447143425). My expertise in quantitative research also translates to my teaching. Over the past year, I have been teaching classes in inferential statistics and experimental design in Cal Poly Pomona's Psychology department. I taught students the importance of ethics in conducting statistics and developing an experiment. Students also learned how to create feasible research questions and hypotheses, utilize psychological theories, conduct comprehensive literature reviews, create a confidential survey using Qualtrics, conduct analyses appropriate for their study's design, write a report of their findings, and prepare a presentation about their studies for an academic conference. 
+
+While less versed in qualitative research skills, I have created interview/focus group questionnaires and have led interviews and focus groups. I also have some experience conducting thematic analyses from qualitative data. I am proficient in navigating clearinghouses and reviews of evidence-based practices and programs’ effectiveness. As a graduate student, I was the project coordinator for a community research project assessing food access in rural Oregon communities. I built strategic partnerships with community members which aided in the identification of key stakeholders and increased access to the inclusion of community members in survey and focus group participation. In addition to working with rural communities, I have collaborated with the local public health department to assess parents' knowledge of materials provided to children promoting health behavior change using the evidence-based program CATCH. 
+
+Recently, I have become more interested in the field of education and student success due to working as Diversity & Inclusion Graduate Employee at the University of Oregon. In this role, I provided safe spaces for graduate students to discuss concerns that informed the Graduate Diversity Advisory Council, a program I co-created with my supervisor. I assisted in organizing meetings with key departments based on student needs–primarily addressing issues of COVID-19 complications, issues of student safety based on race/gender identity discrimination and violence, and international student housing. 
+
+My experience working for the university led to my interest in finding data to examine on student success. I have advanced competency using R for the past 4 years for data visualizations, dashboard creation, and statistical analyses, with proficiency in Python. In collaboration with the Vice Provost of University of Oregon's Graduate School, I developed a dashboard (https://jpedroza1228.github.io/gradschool_dashboard/) examining if increasing graduate teaching employees as instructors increased undergraduate student success. To practice creating interactive dashboards, I gathered exit data for graduating graduate students on the effectiveness and inclusivity of their respective programs (https://jp-shinyapps.shinyapps.io/shiny/). Outside of my work as a lecturer, I compiled data on student success at Cal Poly Pomona to evaluate non-passing rates of students. I have several years of experience conducting inferential statistics, including methods such as structural equation modeling and mixed-effect modeling. I have used inferential statistics to answer research questions about psychometrics of measures, adolescent and adult health behaviors, food access in rural Oregon, among other topics through published peer-reviewed journals and poster and paper presentations at regional and national conferences. Through these mediums, I have used inferential statistics to discuss the relevance and potential implications of findings to audiences of academics and practitioners.
+
+I believe I can be a great asset to `r place` with my skills in `r skills`, while learning more about the promotion of equity in schools. This opportunity will augment my current experience, knowledge, and skills through learning how to use these skills in collaboration with other analysts and stakeholders. Thank you for your consideration.
+
+Best regards,
+
+Jonathan A. Pedroza (JP), PhD
