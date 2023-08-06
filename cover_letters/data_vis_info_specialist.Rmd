@@ -1,0 +1,46 @@
+---
+output: stevetemplates::cover_letter
+geometry: margin = 1.5cm
+header-includes:
+  - \linespread{1.05}
+
+author: Jonathan A. Pedroza, PhD
+address: |
+    | 14032 Gridley Rd
+    | Norwalk, CA, 90650
+email: "cpppedroza@gmail.com"
+url: jonathan-a-pedroza.netlify.app
+phone: (562) 547-5729
+fontsize: 10pt
+mainfont: cochineal
+monofont: Fira Code
+
+fontawesome: TRUE
+date: "`r format(Sys.time(), '%d %B %Y')`"
+greetings: "Dear VA Evidence Synthesis Program,"
+
+---
+
+```{r setup, include = FALSE}
+jobtitle <- "Data Visualization and Information Specialist"
+place <- "VA Evidence Synthesis Program"
+mission <- "to improve Veteran health and wellbeing"
+skills <- "research, statistics, and disseminating findings"
+new <- "how to synthesize systematic reviews and meta-analyses, as well as learn new programs, such as Tableau"
+```
+
+I am pleased to submit my application for the opening of *`r jobtitle`* at `r place`. This position is of great interest due to `r place`'s mission `r mission`. I believe my skills in `r skills`, along with my desire to learn new skills can be beneficial to `r place`'s mission goals.  
+
+As a [Prevention Scientist](https://www.npscoalition.org/prevention-science), I am experienced in conducting quantitative research. I have worked on and led several research projects focused on inequities in specific populations. My experience teaching statistics and experimental design are reflective of my quantitative research skills. In my classes, students learned the importance of ethics in conducting statistics and creating an experiment. Students also learned how to create feasible research questions and hypotheses, utilize psychological theories, conduct comprehensive literature reviews, create a confidential survey using Qualtrics, conduct analyses appropriate for their experimental design, write a report of their findings, and prepare a presentation about their experiments for an academic conference.
+
+Aligned with the responsibilities of the position, I have advanced competency using R for the past 4 years for analyses; both inferential statistics and machine learning. I have 6+ years of experience conducting inferential statistics, including methods such as spatial regression, structural equation modeling, and multi-level modeling. I have used inferential statistics to answer research questions about psychometrics of measures, adolescent and adult health behaviors, food access in rural Oregon, and other topics through [published peer-reviewed journals](https://scholar.google.com/citations?user=_LpAFsIAAAAJ&hl=en) and poster and paper presentations at regional and national [conferences](https://jonathan-a-pedroza.netlify.app/talk/my-presentation-at-american-public-health-association/). Through these mediums, I have used inferential statistics to discuss the relevance and potential implications of findings to audiences of academics and practitioners. While being primarily trained in inferential statistics, I have sought out courses and a specialization in data science to learn more about machine learning. Through these data science courses, I have learned data wrangling, data visualization, dashboard and report creation, and machine learning algorithms in R; however, during my personal time I have been teaching myself these topics in Python.
+
+In addition to my experiences using R and Python for modeling purposes, I am proficient in R to create visualizations of analytic findings using dashboards and reproducible reports. Currently, as a Data Science Academy Mentor for RStudio I have been working with industry professionals to develop skills in data visualization, data manipulation, modeling techniques, and dashboard/report creation using R. I am competent in creating dashboards using the [Flexdashboard](https://pkgs.rstudio.com/flexdashboard/) and [Shiny](https://shiny.rstudio.com/) R packages. While different from Tableau and other software, both packages allow for a great deal of customization. In collaboration with the Vice Provost of University of Oregon's Graduate School I created a [dashboard](https://jpedroza1228.github.io/gradschool_dashboard/) using growth models to examine if increasing graduate teaching employees as instructors improved undergraduate student success. I've also created a [shiny dashboard](https://jp-shinyapps.shinyapps.io/stock_price_parameters/?_ga=2.254018509.474595567.1655859378-210611389.1654806010) to tune parameters to forecast futurestock prices. Additionally, I am proficient in creating reports (example report with analyses [here](https://jpedroza1228.github.io/jp_dissertation/)) and presentations (example presentation [here](https://github.com/jpedroza1228/cpp_3307/blob/main/psy3307_spring2022/lectures/moderation.pdf); code [here](https://github.com/jpedroza1228/cpp_3307/blob/main/psy3307_spring2022/lectures/moderation.qmd)) using Rmarkdown for students, practitioners, academics, and non-technical audiences.
+
+With a background in academia, I am a lifelong learner. I am eager to learn more about the tools used in industry positions. I am constantly researching more about new analytic techniques or other programming skills through books and online resources. Additionally, I have sought out resources to become proficient in reading and creating SQL queries using Google Cloud BigQuery platform; however, I am enthusiastic about utilizing concepts I have learned with more complex queries. 
+
+I believe I can be a great asset to `r place` with my expertise in `r skills`. This opportunity will augment my current experience, knowledge, and skills by learning `r new`. Thank you for your consideration.
+
+Best regards,
+
+Jonathan A. Pedroza (JP), PhD

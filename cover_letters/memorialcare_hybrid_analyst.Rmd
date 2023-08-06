@@ -1,0 +1,46 @@
+---
+output: stevetemplates::cover_letter
+geometry: margin = 1.5cm
+header-includes:
+  - \linespread{1.05}
+
+author: Jonathan A. Pedroza, PhD
+address: |
+    | 14032 Gridley Rd
+    | Norwalk, CA, 90650
+email: "cpppedroza@gmail.com"
+url: jonathan-a-pedroza.netlify.app
+phone: (562) 547-5729
+fontsize: 10pt
+mainfont: cochineal
+monofont: Fira Code
+
+fontawesome: TRUE
+date: "`r format(Sys.time(), '%d %B %Y')`"
+greetings: "Dear Edwards Lifesciences,"
+
+---
+
+```{r setup, include = FALSE}
+jobtitle <- "Senior Analyst in Statistical Programming"
+place <- "Edwards Lifesciences"
+mission <- "to improve the lives of patients"
+skills <- "research, statistics, and disseminating findings"
+new <- "how to apply these skills in a healthcare environment"
+```
+
+I am pleased to submit my application for the opening of *`r jobtitle`* at `r place`. This position is of great interest due to `r place`'s mission `r mission`. I believe my skills in `r skills`, along with my desire to learn new skills can be beneficial to `r place`'s mission goals.  
+
+As a Prevention Scientist, I am experienced in conducting quantitative and qualitative research. I have worked on and led several research projects focused on inequities in specific populations. My experience teaching statistics and experimental design are reflective of my quantitative research skills. In these classes, students learned the importance of ethics in conducting statistics and creating an experiment. Students also learned how to create feasible research questions and hypotheses, utilize psychological theories, conduct comprehensive literature reviews, create a confidential survey using Qualtrics, conduct analyses appropriate for their experimental design, write a report of their findings, and prepare a presentation about their experiments for an academic conference. As a graduate student, I was the project coordinator for a community research project assessing food access in rural Oregon communities. I built strategic partnerships with community members which aided in the identification of key stakeholders and increased access to the inclusion of community members in survey and focus group participation. In addition to working with rural communities, I have collaborated with the local public health department to assess parents’ knowledge of materials provided to children promoting health behavior change using the evidence-based program CATCH.
+
+Aligned with the responsibilities of the position, I have advanced competency using R for the past 4 years for analyses; both inferential statistics and machine learning. I have several years of experience conducting inferential statistics, including methods such as spatial regression, structural equation modeling, and mixed-effect modeling. I have used inferential statistics to answer research questions about psychometrics of measures, adolescent and adult health behaviors, food access in rural Oregon, and other topics through [published peer-reviewed journals](https://scholar.google.com/citations?user=_LpAFsIAAAAJ&hl=en) and poster and paper presentations at regional and national [conferences](https://drive.google.com/file/d/1GbjOT36Nh_KaPjrq0ek7UrQ4sg2gdCGQ/view). Through these mediums, I have used inferential statistics to discuss the relevance and potential implications of findings to audiences of academics and practitioners (example presentation [here](https://jonathan-a-pedroza.netlify.app/talk/my-presentation-at-american-public-health-association/)). While being primarily trained in inferential statistics, I have sought out courses and a specialization in data science to learn more about machine learning. Through these data science courses, I have learned data wrangling, data visualization, dashboard and report creation, and machine learning algorithms in R; however, during my personal time I have been teaching myself these topics in Python. Currently, as a Data Science Academy Mentor for RStudio I have been guiding industry professionals to develop skills in data visualizations, data manipulation, modeling techniques, and how to create reports using R. Outside of my roles, I often seek out opportunities to practice and learn new skills. For instance, during my graduate studies, I collaborated with the Vice Provost of University of Oregon's Graduate School and developed a [dashboard](https://jpedroza1228.github.io/gradschool_dashboard/) using growth models to examine if increasing graduate teaching employees as instructors increased undergraduate student success. While different from Tableau and other dashboard creating software, *Flexdashboard* and *Shiny* allow for customization in both the aesthetic and underlying R code. To refine these skills, I often use competitions and datasets from sources like [Kaggle](https://www.kaggle.com/) to practice these skills in both languages and am constantly researching more about machine learning through books and online resources. Additionally, I have sought out resources to become competent in using SQL for database management; however, I am enthusiastic about utilizing concepts I have learned with more complex queries.
+
+My expertise in these techniques also translates to my teaching experiences. Over the past year, I have been teaching inferential statistics and experimental design. There, I have advanced the program curriculum by incorporating R rather than solely SPSS. In this course, I taught students the importance of ethics in conducting statistics and developing a true experiment. Students also learned how to create feasible research questions and hypotheses, utilize psychological theories, conduct comprehensive literature reviews, create a confidential survey using Qualtrics, conduct analyses appropriate for their experimental design, write a report of their findings, and prepare a presentation about their experiments for an academic conference.
+
+With a background in academia, I am likely to be quite different from other applicants; however, as a lifelong learner, I am eager to learn more about working in healthcare
+
+I believe I can be a great asset to `r place` with my expertise in `r skills`. This opportunity will augment my current experience, knowledge, and skills by learning `r new`. Thank you for your consideration.
+
+Best regards,
+
+Jonathan A. Pedroza (JP), PhD
