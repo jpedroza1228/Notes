@@ -1,0 +1,249 @@
+---
+title: "Jonathan A. Pedroza's Resume"
+author: Jonathan Pedroza, PhD
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: true
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+---
+
+```{css, echo=FALSE}
+:root{
+  --page-width: 8.5in;
+  --margin-right: 0.5in;
+  --margin-left: 0.25in;
+  --content-width: calc(var(--page-width) - var(--margin-right) - var(--margin-left));
+  --root-font-size: 12pt;
+  --sidebar-width: 15rem;
+  --sidebar-background-color: #f2f2f2;
+  --main-width: calc(var(--content-width) - var(--sidebar-width));
+  --decorator-horizontal-margin: 0.2in;
+
+  --sidebar-horizontal-padding: 0.2in;
+
+  /* XXX: using px for very good precision control */
+  --decorator-outer-offset-top: 10px;
+  --decorator-outer-offset-left: -5.5px;
+  --decorator-border-width: 1px;
+  --decorator-outer-dim: 9px;
+  --decorator-border: 1px solid #ccc;
+
+  --row-blocks-padding-top: 0.5rem;
+  --date-block-width: 0.7in;
+
+  --main-blocks-title-icon-offset-left: calc(-17pt - 0.25 * var(--root-font-size));
+
+  --viewer-background-color: #dcdcdc;
+  --viewer-pages-spacing: 12px;
+  --viewer-shadow-color: #313131;
+}
+
+.pagedjs_page {
+    background: linear-gradient(to left,var(--sidebar-background-color),var(--sidebar-background-color) var(--sidebar-background-width),white var(--sidebar-background-width));
+    --pagedjs-margin-top: 0.5in;
+    --pagedjs-margin-right: 0.5in;
+    --pagedjs-margin-left: 0.25in;
+    --pagedjs-margin-bottom: 0.5in;
+    --pagedjs-border-top: [object Object];
+    --pagedjs-border-right: [object Object];
+    --pagedjs-border-left: [object Object];
+    --pagedjs-border-bottom: [object Object];
+    --pagedjs-pagebox-width: 8.5in;
+    --pagedjs-pagebox-height: 11in;
+    
+  --content-area-height: calc(var(--pagedjs-height) - var(--pagedjs-margin-top) - var(--pagedjs-margin-bottom));
+  --sidebar-background-width: calc(var(--pagedjs-margin-right) + var(--sidebar-width));
+}
+
+.date{
+  flex: 0 0 var(--date-block-width);
+  padding-top: calc(var(--row-blocks-padding-top) + 0.25rem) !important;
+  padding-right: var(--decorator-horizontal-margin);
+  font-size: 0.6rem;
+  text-align: right;
+  line-height: 1;
+  max-width: var(--date-block-width);
+}
+
+.aside {
+    width: var(--sidebar-width);
+    padding: 0.1in var(--sidebar-horizontal-padding);
+    font-size: 0.8rem;
+    float: right;
+    position: absolute;
+    right: 0;
+}
+
+#title{
+  position: relative;
+  left: 0in;
+  margin: auto 0in 0in auto;
+  line-height: 1.2;
+}
+
+.aside .level2{
+  margin-top: 0.1in;
+}
+
+```
+
+Aside
+================================================================================
+
+Jonathan A. Pedroza PhD {#title}
+--------------------------------------------------------------------------------
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> jonathan.pedroza@ku.edu
+- <i class="fa fa-github"></i> [github.com/jpedroza1228](https://github.com/jpedroza1228)
+- <i class="fa fa-phone"></i> (562)547-5729
+- <i class="fa fa-line-chart" aria-hidden="true"></i> [Website](https://jonathan-a-pedroza.netlify.app/)
+- <i class="fa fa-linkedin-square" aria-hidden="true"></i> [Linkedin](https://www.linkedin.com/in/jonathan-a-pedroza-phd-5721a7120/)
+- For more information, please contact me via email.
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- Programming languages: R, Python, and SQL
+
+- Inferential statistics (e.g., growth models, structural equation modeling)
+
+- Machine learning (e.g., decision trees, gradient boosting, linear/logistic regression)
+
+- Data visualization (e.g., ggplot2, Plotly)
+
+- Dashboards (e.g., Shiny, Flexdashboard)
+
+- Grant and report writing
+
+- Research design
+
+- Survey design
+
+- Qualitative research methods (e.g,. interviews, focus groups)
+
+- Program evaluation
+
+- Google Cloud Platform
+
+References
+--------------------------------------------------------------------------------
+
+Available upon request
+
+Main
+================================================================================
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### University of Oregon
+
+PhD in Prevention Science (*Specialization: Data Science for Educators*)
+
+Eugene, Oregon
+
+09/17-09/21
+
+### University of Oregon
+
+MS in Prevention Science
+
+Eugene, Oregon
+
+09/17-12/20
+
+### California State University, Dominguez Hills
+
+MA in Health Psychology
+
+Carson, CA
+
+08/15-08/17
+
+### California State Polytechnic University, Pomona
+
+BA in Psychology (*Minor: Chicana/o & Latina/o Studies*)
+
+Pomona, CA
+
+09/09-12/14
+
+Professional Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Data Scientist/Psychometrician
+
+Accessible Teaching, Learning, and Assessment Systems
+
+Remote
+
+09/22-Present
+
+::: concise
+- Create annual reports in collaboration with the National Center on Deafblindness
+- Led a project predicting student use of text-to-speech function
+- Testing student assessment data using Bayesian Networks
+:::
+
+### Posit Academy Mentor
+
+RStudio; Posit
+
+Remote
+
+01/22-09/22; 7/23-Present
+
+::: concise
+- Co-led mentor meetings with students learning how to use R
+- Held office hours to assist students with troubleshooting R code
+:::
+
+### Lecturer, Psychology
+
+California State Polytechnic University, Pomona 
+
+Pomona, CA
+
+08/21-06/22
+
+::: concise
+- Lectured on experimental design and inferential statistics
+- Taught students how to conduct statistics in SPSS and R
+- Trained students in recruitment, survey design, experimental design, conducting analyses, and report writing
+:::
+
+### Diversity & Inclusion Graduate Employee
+
+University of Oregon - Graduate School
+
+Eugene, Oregon
+
+09/20-06/21
+
+::: concise
+- Created advisory groups to improve inclusivity
+- Organized data for incoming McNair and Promising Scholars
+- Created dashboards on student teaching and program perceptions
+- Held office hours for students with departmental issues or professional development
+:::
+
+### Graduate Research Assistant
+
+University of Oregon - Counseling Psychology
+
+Eugene, Oregon
+
+09/17-06/19
+
+::: concise
+-	Built strategic connections with key community members in rural Oregon communities
+-	Conducted a needs assessment for food insecurity in communities
+- Created presentations reporting findings at academic conferences 
+-	Trained several undergraduates in survey design, qualitative and quantitative research methods, data collection, data analysis, and report writing
+:::

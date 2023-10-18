@@ -100,7 +100,7 @@ Jonathan A. Pedroza PhD {#title}
 Contact Info {#contact}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-envelope"></i> cpppedroza@gmail.com
+- <i class="fa fa-envelope"></i> jonathan.pedroza@ku.edu
 - <i class="fa fa-github"></i> [github.com/jpedroza1228](https://github.com/jpedroza1228)
 - <i class="fa fa-phone"></i> (562)547-5729
 - <i class="fa fa-line-chart" aria-hidden="true"></i> [website](https://jonathan-a-pedroza.netlify.app/)
@@ -149,7 +149,7 @@ PhD in Prevention Science (*Specialization: Data Science for Educators*)
 
 Eugene, Oregon
 
-2017-2021
+09/17-09/21
 
 ### University of Oregon
 
@@ -157,7 +157,7 @@ MS in Prevention Science
 
 Eugene, Oregon
 
-2017-2020
+09/17-12/20
 
 ### California State University, Dominguez Hills
 
@@ -165,7 +165,7 @@ MA in Health Psychology
 
 Carson, CA
 
-2015-2017
+08/15-08/17
 
 ### California State Polytechnic University, Pomona
 
@@ -173,7 +173,7 @@ BA in Psychology (*Minor: Chicana/o & Latina/o Studies*)
 
 Pomona, CA
 
-2009-2014
+09/09-12/14
 
 Professional Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
