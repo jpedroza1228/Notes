@@ -1,0 +1,9 @@
+---
+date: 07/23/2024
+format:
+  CoverLetter-typst: default
+---
+
+```{=typst}
+#lorem(500)
+```

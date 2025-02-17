@@ -1,0 +1,32 @@
+---
+date: 07/23/2024
+company: Company
+sent_to: Dear Hiring Committee
+job_address: 100 Main St  
+job_city: City
+job_state: State
+job_zipcode: 10000
+job_title: Data Scientist
+name: Jonathan A. Pedroza, PhD
+skills: skills, more skills, and all the skills
+home_address: 100 Not Main St
+city: City
+state: State
+zipcode: 10000
+phone: XXX-XXX-XXXX
+email: "jonpedroza1228@gmail.com"
+github: "https://github.com/jpedroza1228"
+website: "https://log-of-jandp.com/"
+paper: "us-letter"
+lang: "en"
+region: "US"
+font: "Crimson Pro"
+fontsize: 11pt
+salutation: "Best regards,"
+format:
+  CoverLetter-typst: default
+---
+
+```{=typst}
+#lorem(500)
+```
